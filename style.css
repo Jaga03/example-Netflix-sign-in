@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login-container{
+    background-image: url("images/bg-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 200px 200px 300px 195px rgba(0,0,0,0.60);
+    width: 100%;
+}
+
+header img{
+    margin-left: 140px;
+}
+
+.login-card{
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+}
+.input-content{
+    font-size: 18px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.219);
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+}
+::placeholder{
+    color: #ffffff;
+}
+
+.sign-in-code{
+    background-color: rgba(255, 255, 255, 0.219);
+    color: #ffffff;
+}
+.content-input{
+    color: #ffffff;
+}
+
+.content-input input{
+    background-color: black;
+    font-size: 20px;
+    border: 1px solid rgb(76, 74, 74);
+}
+
+.content-input input:hover{
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.content-input label{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.content-input p a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.forget-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.forget-link:hover{
+    text-decoration: underline;
+}
+
+.content-input p a:hover{
+    text-decoration: underline;
+}
+
+.learn-more{
+    font-size: 15px;
+    color: rgb(106, 104, 104);
+}
+
+span a{
+    text-decoration: none;
+    color: rgb(5, 5, 252);
+}
+
+span a:hover{
+    text-decoration: underline;
+
+}
+
+.footer-content{
+    color: #ffffff;
+}
+
+.password-container{
+    position: relative;
+}
+.fa-eye , .fa-eye-slash{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    color: #ffffff;
+    cursor: pointer;
+}
